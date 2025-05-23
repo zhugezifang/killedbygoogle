@@ -4,7 +4,6 @@ import { css } from '@emotion/react';
 
 // Import Styled Components
 import { FooterContainer, FlexWrap } from 'components/Footer/Footer.atoms';
-import { PressCoverage } from 'components';
 import Link from 'next/link';
 
 const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
@@ -73,7 +72,7 @@ const SocialWrapper = styled.div(() => css({
 
 const Footer = () => (
     <>
-        <PressCoverage />
+        
         <FooterContainer>
             <FlexWrap>
                 <FooterTitle>
@@ -91,59 +90,10 @@ const Footer = () => (
                         We aim to be a source of factual information about the history
                         surrounding Google&apos;s dead projects.
           </p>
-                    <p>
-                        <a
-                            href="https://github.com/codyogden/killedbygoogle/graphs/contributors"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Contributors
-            </a>
-            &nbsp;from around the world help compile, research, and maintain the
-            information about dying and dead Google products. You can join the
-            discussion on&nbsp;
-            <a href="https://github.com/codyogden/killedbygoogle">GitHub</a>. A project
-            by&nbsp;
-            <a
-                            href="https://codyogden.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Cody Ogden
-            </a>
-            .
-          </p>
-                    <p>
-                        Press inquiries and other assorted death threats?
-            <br />
-            Throw a&nbsp;
-            <a href="mailto:knife@killedbygoogle.com">
-                            knife@killedbygoogle.com
-            </a>
-            .
-          </p>
+                    
                 </div>
-                <CopyNotice>
-                    <a href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE">
-                        &copy; {(new Date()).getFullYear()} Cody Ogden.
-          </a>
-          &nbsp;-&nbsp;
-          <a href="https://analytics.kbg.rip" target="_blank" rel="noopener noreferrer">
-                        Analytics
-          </a>
-                </CopyNotice>
-                <SocialWrapper>
-                    <SocialLink
-                        url="https://killedbygoogle.blue"
-                        altText="BlueSky"
-                        imgSrc='https://static.killedbygoogle.com/com/bsky.svg'
-                    />
-                    <SocialLink
-                        url="https://github.com/codyogden/killedbygoogle"
-                        altText="GitHub"
-                        imgSrc='https://static.killedbygoogle.com/com/github.svg'
-                    />
-                </SocialWrapper>
+                
+                
             </FlexWrap>
         </FooterContainer>
     </>
