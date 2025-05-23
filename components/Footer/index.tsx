@@ -4,7 +4,7 @@ import { css } from '@emotion/react';
 
 // Import Styled Components
 import { FooterContainer, FlexWrap } from 'components/Footer/Footer.atoms';
-import { FAQ } from 'components/FAQ';
+import  FAQ  from 'components/FAQ';
 
 import Link from 'next/link';
 
