@@ -30,7 +30,7 @@ const FAQQuestion = styled.h3(() => css({
 const FAQAnswer = styled.p(() => css({
   margin: 0,
   lineHeight: 1.5,
-  color: '#444',
+  color: '#fff',
   fontSize: '0.95em',
 }));
 
