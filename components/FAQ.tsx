@@ -45,7 +45,7 @@ const FAQ = () => (
 
     <FAQItem>
       <FAQQuestion>Why does Google discontinue products?</FAQQuestion>
-      <FAQAnswer>Google may discontinue a product for many reasons, including low user interest, high operational costs, or the desire to focus on newer technology. Sometimes it's because a similar product exists that provides better solutions or has more features.</FAQAnswer>
+      <FAQAnswer>Google may discontinue a product for many reasons, including low user interest, high operational costs, or the desire to focus on newer technology. Sometimes it&apos;s because a similar product exists that provides better solutions or has more features.</FAQAnswer>
     </FAQItem>
 
     <FAQItem>
@@ -60,7 +60,7 @@ const FAQ = () => (
 
     <FAQItem>
       <FAQQuestion>Is there any way to recover data from shut down services?</FAQQuestion>
-      <FAQAnswer>Most of the time, if a Google service is shut down, the data associated with that service is also deleted. However, it's always a good practice to backup your data regularly, especially if you use apps that are not widely supported.</FAQAnswer>
+      <FAQAnswer>Most of the time, if a Google service is shut down, the data associated with that service is also deleted. However, it&apos;s always a good practice to backup your data regularly, especially if you use apps that are not widely supported.</FAQAnswer>
     </FAQItem>
 
     <FAQItem>
@@ -84,8 +84,8 @@ const FAQ = () => (
     </FAQItem>
 
     <FAQItem>
-      <FAQQuestion>What can I do to keep track of Google's active services?</FAQQuestion>
-      <FAQAnswer>To keep track of Google's active services, regularly visiting their official blog or support page can help. Checking tech news sites can also keep you informed about new launches or discontinuations.</FAQAnswer>
+      <FAQQuestion>What can I do to keep track of Google&apos;s active services?</FAQQuestion>
+      <FAQAnswer>To keep track of Google&apos;s active services, regularly visiting their official blog or support page can help. Checking tech news sites can also keep you informed about new launches or discontinuations.</FAQAnswer>
     </FAQItem>
   </FAQContainer>
 );
