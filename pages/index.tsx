@@ -21,7 +21,7 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
                 <link rel="shortcut icon" href="favicon.png" />
                 <title>Find The Killed Products by Google In Google Graveyard</title>
-                <meta itemProp="description" content="Explore the history of Google products that have been discontinued. From apps to hardware, discover what got killed by Google" />
+                <meta name="description" content="Explore the history of Google products that have been discontinued. From apps to hardware, discover what got killed by Google" />
             </Head>
             <Header />
             <App items={items} />

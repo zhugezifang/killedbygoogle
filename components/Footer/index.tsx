@@ -4,6 +4,8 @@ import { css } from '@emotion/react';
 
 // Import Styled Components
 import { FooterContainer, FlexWrap } from 'components/Footer/Footer.atoms';
+import { FAQ } from 'components/FAQ';
+
 import Link from 'next/link';
 
 const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
@@ -83,6 +85,9 @@ const Footer = () => (
                     </div>
                     <Title>Killed by Google</Title>
                 </FooterTitle>
+        
+        <FAQ/>
+
                 <div>
                     <p>
                         Killed by Google is the Google graveyard; a free and open source
@@ -92,6 +97,13 @@ const Footer = () => (
           </p>
                     
                 </div>
+                <CopyNotice>
+                        &copy; {(new Date()).getFullYear()} Cody Ogden.
+          &nbsp;-&nbsp;
+          <a href="https://analytics.kbg.rip" target="_blank" rel="noopener noreferrer">
+                        Analytics
+          </a>
+                </CopyNotice>
                 
                 
             </FlexWrap>
