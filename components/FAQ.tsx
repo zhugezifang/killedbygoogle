@@ -39,7 +39,7 @@ const FAQ = () => (
     <FAQTitle>Google Services FAQ</FAQTitle>
 
     <FAQItem>
-      <FAQQuestion>What is 'Killed by Google'?</FAQQuestion>
+      <FAQQuestion>What is Killed by Google?</FAQQuestion>
       <FAQAnswer>Killed by Google is a list and website that tracks all the products and services that Google has shut down or discontinued over the years. It shows both apps and hardware that are no longer available to users. This can include anything from popular apps like Google Play Music to devices like Google Clips.</FAQAnswer>
     </FAQItem>
 
@@ -74,8 +74,8 @@ const FAQ = () => (
     </FAQItem>
 
     <FAQItem>
-      <FAQQuestion>Can I still use services that are marked as 'killed' on this website?</FAQQuestion>
-      <FAQAnswer>No, once a service is marked as 'killed', it means it is no longer available for use. Google will not offer support or access to these discontinued products, so users are encouraged to look for alternatives.</FAQAnswer>
+      <FAQQuestion>Can I still use services that are marked as killed on this website?</FAQQuestion>
+      <FAQAnswer>No, once a service is marked as killed, it means it is no longer available for use. Google will not offer support or access to these discontinued products, so users are encouraged to look for alternatives.</FAQAnswer>
     </FAQItem>
 
     <FAQItem>
